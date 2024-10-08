@@ -2,7 +2,7 @@
 
 ## Groupe C2 - Groupe n°3
 
-[SAE-5-6_Dassault-systemes](https://*.github.io/) 
+[ProjetDevWeb_C2_G3]([https://*.github.io/](https://benj-ruy.github.io/ProjetDevWeb_C2_G3.github.io/)) 
 
 ## Membres du groupe : 
 
