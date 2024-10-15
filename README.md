@@ -2,7 +2,7 @@
 
 ## Groupe C2 - Groupe n°3
 
-[Kimiko_SuperMarket_C2_G3](https://benj-ruy.github.io/ProjetDevWeb_C2_G3.github.io/)
+[Kimiko_Market_C2_G3](https://benj-ruy.github.io/ProjetDevWeb_C2_G3.github.io/)
 
 ## Membres du groupe : 
 
