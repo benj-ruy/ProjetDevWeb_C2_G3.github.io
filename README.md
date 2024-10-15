@@ -1,6 +1,6 @@
 # Projet Développement Web 
 
-## Groupe C2 - Groupe n°3
+## Kimiko Market - Groupe C2 - Groupe n°3
 
 [Kimiko_Market_C2_G3](https://benj-ruy.github.io/ProjetDevWeb_C2_G3.github.io/)
 
