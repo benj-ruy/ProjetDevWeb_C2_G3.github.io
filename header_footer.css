@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Quicksand", sans-serif;
 }
 
 header {
@@ -67,6 +68,7 @@ footer {
     .active-page{
         color: rgb(197, 33, 33);
         font-size: 20px;
+        text-decoration: underline;
     }
     .infos{
         display: flex;
@@ -81,6 +83,7 @@ footer {
         color: black;
         display : inline;
     }
+
     .elem_infos img{
         margin-top: 10px;
         height: 50px;
@@ -143,7 +146,7 @@ footer {
         padding: 0;
     }
     .elem_infos{
-        color: #005386;
+        color: black;
         align-items: center;
         margin: 20px;
     }
@@ -152,7 +155,7 @@ footer {
         height: 50px;
     }
     .creation_page{
-        color: #005386;
+        color: black;
         display: flex;
         justify-content: space-around;
         margin-top: 15px;
