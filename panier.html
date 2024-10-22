@@ -28,39 +28,49 @@
         
         <h1>Votre panier</h1>
         <section class="panier">
-            <div class="produits"> 
-                <div class="produit">
-                    <img src="" alt="image du produit" class="img_produit">
-                    <div class="infos_produit">
-                        <h2>Nom du produit</h2>
-                        <p>Description du produit</p>
-                        <p>Prix du produit</p>
-                        <p>Quantité du produit</p>
-                    </div>
-                    <div class="quantité">
-                        <button>-</button>
-                        <p>1</p>
-                        <button>+</button>
-                    </div>
-                    <button class="supprimer">Supprimer</button>
-                </div>
-                
-                <div class="produit">
-                    <img src="" alt="image du produit" class="img_produit">
-                    <div class="infos_produit">
-                        <h2>Nom du produit 2</h2>
-                        <p>Description du produit</p>
-                        <p>Prix du produit</p>
-                        <p>Quantité du produit</p>
-                    </div>
-                    <div class="quantité">
-                        <button>-</button>
-                        <p>1</p>
-                        <button>+</button>
-                    </div>
-                    <button class="supprimer">Supprimer</button>
-                </div>
-            </div>
+            <table class="produits">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Produit</th>
+                        <th>prix unitaire</th>
+                        <th>Quantité</th>
+                        <th>Prix total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="food-card">
+                        <td><img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit"></td>
+                        <td><h4>Nom du produit</h4></td>
+                        <td>3 &#8364;</td>
+                        <td>
+                            <div class="quantité">
+                                <button>-</button>
+                                <p>2</p>
+                                <button>+</button>
+                            </div>
+                        </td>
+                        <td>6 &#8364;</td>
+                        <td><button class="supprimer">Supprimer</button></td>
+                    </tr>
+                    
+                    <tr class="food-card">
+                        <td><img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit"></td>
+                        <td><h4>Nom du produit 2</h4></td>
+                        <td>3 &#8364;</td>
+                        <td>
+                            <div class="quantité">
+                                <button>-</button>
+                                <p>3</p>
+                                <button>+</button>
+                            </div>
+                        </td>
+                        <td>9 &#8364;</td>
+                        <td><button class="supprimer">Supprimer</button></td>
+                    </tr>
+                </tbody>
+            </table>
 
             <div class="total">
                 <p>Total</p>
@@ -70,7 +80,7 @@
 
         <section class="recommandation">
             <h2>Recommandations</h2>
-            <div class="produit">
+            <div class="food-card">
                 <img src="" alt="image du produit" class="img_produit">
                 <div class="infos_produit">
                     <h2>Nom du produit</h2>
@@ -79,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="produit">
+            <div class="food-card">
                 <img src="" alt="image du produit" class="img_produit">
                 <div class="infos_produit">
                     <h2>Nom du produit</h2>
