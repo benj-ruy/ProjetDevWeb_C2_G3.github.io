@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main {
+    margin: 0 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+.panier {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.produits {
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.produit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.total {
+    display: block;
+    background-color: #AAA;
+    font-weight: bold;
+    width: 300px;
+}
+
+.produit .quantité {
+    display: flex;
+    gap: 10px;
+}
+

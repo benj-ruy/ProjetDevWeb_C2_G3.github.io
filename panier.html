@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/panier.css">
-    <link rel="stylesheet" href="header_footer.css">
     <title>Panier</title>
+    <link rel="stylesheet" href="header_footer.css">
     <link rel="stylesheet" href="panier.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav class="nav-bar">
@@ -23,65 +23,76 @@
             </ul>
         </nav>
     </header>
+    
     <main>
+        
         <h1>Votre panier</h1>
+        <section class="panier">
+            <div class="produits"> 
+                <div class="produit">
+                    <img src="" alt="image du produit" class="img_produit">
+                    <div class="infos_produit">
+                        <h2>Nom du produit</h2>
+                        <p>Description du produit</p>
+                        <p>Prix du produit</p>
+                        <p>Quantité du produit</p>
+                    </div>
+                    <div class="quantité">
+                        <button>-</button>
+                        <p>1</p>
+                        <button>+</button>
+                    </div>
+                    <button class="supprimer">Supprimer</button>
+                </div>
+                
+                <div class="produit">
+                    <img src="" alt="image du produit" class="img_produit">
+                    <div class="infos_produit">
+                        <h2>Nom du produit 2</h2>
+                        <p>Description du produit</p>
+                        <p>Prix du produit</p>
+                        <p>Quantité du produit</p>
+                    </div>
+                    <div class="quantité">
+                        <button>-</button>
+                        <p>1</p>
+                        <button>+</button>
+                    </div>
+                    <button class="supprimer">Supprimer</button>
+                </div>
+            </div>
 
-        <section class="produit">
-            <img src="" alt="image du produit" class="img_produit">
-            <div class="infos_produit">
-                <h2>Nom du produit</h2>
-                <p>Description du produit</p>
-                <p>Prix du produit</p>
-                <p>Quantité du produit</p>
+            <div class="total">
+                <p>Total</p>
+                <p>6 &#8364;</p>
             </div>
-            <div class="quantité">
-                <button>-</button>
-                <p>1</p>
-                <button>+</button>
-            </div>
-            <button class="supprimer">Supprimer</button>
-        </section>
-
-        <section class="produit"></section>
-            <img src="" alt="image du produit" class="img_produit">
-            <div class="infos_produit">
-                <h2>Nom du produit 2</h2>
-                <p>Description du produit</p>
-                <p>Prix du produit</p>
-                <p>Quantité du produit</p>
-            </div>
-            <div class="quantité">
-                <button>-</button>
-                <p>1</p>
-                <button>+</button>
-            </div>
-            <button class="supprimer">Supprimer</button>
         </section>
 
         <section class="recommandation">
             <h2>Recommandations</h2>
-            <section class="produit">
+            <div class="produit">
                 <img src="" alt="image du produit" class="img_produit">
                 <div class="infos_produit">
                     <h2>Nom du produit</h2>
                     <p>Description du produit</p>
                     <p>Prix du produit</p>
                 </div>
-            </section>
+            </div>
 
-            <section class="produit">
+            <div class="produit">
                 <img src="" alt="image du produit" class="img_produit">
                 <div class="infos_produit">
                     <h2>Nom du produit</h2>
                     <p>Description du produit</p>
                     <p>Prix du produit</p>
                 </div>
-            </section>
+            </div>
         </section>
                 
     </main>
+
     <footer>
-        <ul class="infos"></ul>
+        <ul class="infos">
             <li class="elem_infos">
                 <b>L'entreprise :</b><br>
                 Kimiko Market,<br>
