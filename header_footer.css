@@ -50,10 +50,12 @@ footer {
         list-style: none;
         flex: 1;
         align-items: center;
+        justify-content: space-around;
     }
     .elem-list {
         flex-basis: 16%;
         text-align: center;
+        
     }
     .links {
         text-decoration: none;
