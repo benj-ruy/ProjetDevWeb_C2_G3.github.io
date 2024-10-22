@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main {
+    margin: 0 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+.panier {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.produits {
+    width: 100%;
+}
+
+.food-card {
+    padding: 5px;
+    border: solid 2px rgb(255, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+}
+
+td, th {
+    margin: auto auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.food-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.total {
+    display: block;
+    background-color: #AAA;
+    font-weight: bold;
+    width: 20%;
+}
+
+.food-card .quantité {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
