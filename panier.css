@@ -5,7 +5,8 @@ main {
 
 
 h1, h2 {
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 
@@ -169,6 +170,7 @@ td, th {
     font-size: 24px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    border-radius: 5px;
     border: none;
     padding: 10px;
     cursor: pointer;
