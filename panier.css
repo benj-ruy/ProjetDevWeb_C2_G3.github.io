@@ -13,7 +13,7 @@ main {
     align-items: center;
     justify-content: center;
     display: flex;
-    background-image: url(images/panier/baniere.jpg);
+    background-image: url(images/panier/banniere.jpg);
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -109,7 +109,7 @@ td, th {
 
 .summary {
     display: block;
-    background-color: #eee;
+    background-color: rgb(243, 243, 243);
     width: 30%;
     min-width: 250px;
     max-width: 450px;

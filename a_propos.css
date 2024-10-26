@@ -97,7 +97,7 @@ input[type=envoi]:hover {
 .formulaire {
     box-sizing : border-box;
     border-radius:5px;
-    border: 1px solid #242424;
+    box-shadow: 0 2px 4px rgb(42, 1, 1);
     background-color: rgb(243, 243, 243);
     padding:20px;
     width: 100%;
