@@ -3,14 +3,14 @@ h1 {
 }
 
 .baniere{
-    height: 600px;
+    height: 650px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-image: url(images/boutique/baniere.jpg);
+    background-image: url(images/accueil/drapeau-japon.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     object-fit: cover;
 }
 
@@ -20,4 +20,64 @@ h1 {
     padding: 30px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.propos_list{
+    display: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding-bottom: 55px;
+}
+
+.propos_elem-list{
+    padding-top: 55px;
+    width: 100%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.titre-elem{
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(199, 1, 57);
+}
+
+.text-elem{
+    position: relative;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: auto;
+}
+
+button{
+    padding: 7px;
+    font-weight: bold;
+    font-size: medium;
+    border: solid 1px rgb(199, 1, 57);
+    background-color: white;
+    transition: 0.25s;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px;
+}
+
+button:hover{
+    background-color: rgb(199, 1, 57);
+    color: white;
+    transition: 0.25s;
+}
+
+@media (min-width: 900px ) {
+    .text-elem{
+        width: 55%;
+        left: 22.5%;
+    }
+}
+
+@media (max-width: 899px ) {
+    .text-elem{
+        width: 90%;
+        left: 5%;
+    }
 }
