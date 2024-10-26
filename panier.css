@@ -278,7 +278,7 @@ td, th {
     }
 
     .produits * {
-        font-size: 13px;
+        font-size: 14px;
         margin: 0;
     }
     .food-panier .img_produit {
@@ -289,7 +289,7 @@ td, th {
     .quantité {
         padding: 1px; 
     }
-    
+
     .quantité::-webkit-inner-spin-button,
     .quantité::-webkit-outer-spin-button {
         display: none;
@@ -297,11 +297,6 @@ td, th {
 
     .summary {
         min-width: 200px;
-        font-size: 13px;
-    }
-
-    #total {
-        font-size: 15px;
     }
 
     .separateur {
@@ -312,6 +307,5 @@ td, th {
     #payer {
         margin-top: 3px;
         padding: 3px;
-        font-size: 14px;
     }
 }
