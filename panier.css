@@ -1,19 +1,37 @@
-main {
+h2, h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.baniere{
+    height: 400px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(images/panier/baniere.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    box-shadow: 0 2px 3px;
+}
+
+.texte-baniere{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+section {
     width: 90%;
     margin: 0 auto;
 }
 
 
-h1, h2 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-
-
-
-
-.panier {
+.panier-container {
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -218,7 +236,7 @@ td, th {
 
 @media (max-width: 900px) {
 
-    .panier {
+    .panier-container {
         flex-direction: column;
         gap: 20px;
     }
@@ -239,7 +257,7 @@ td, th {
 }
 
 @media screen and (max-width: 500px) {
-    main {
+    section {
         padding: 10px;
     }
 

@@ -26,86 +26,92 @@
     </header>
     
     <main>
-        <div class="baniere"></div>
+        <div class="baniere">
+            <div class="texte-baniere">
+                <h1>Votre panier</h1>
+            </div>
+        </div>
         
-        <h1>Votre panier</h1>
-        <section class="panier">
-            <table class="produits">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Produit</th>
-                        <th>prix unitaire</th>
-                        <th>Quantité</th>
-                        <th>Prix total</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="food-panier">
-                        <td><img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit"></td>
-                        <td><h4>Mochis</h4></td>
-                        <td class="prix">3,50</td>
-                        <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
-                        <td class="prix">3,50</td>
-                        <td><button class="supprimer"></button></td>
-                    </tr>
-                    
-                    <tr class="food-panier">
-                        <td><img src="images/boutique/wasabi.jpg" alt="image du produit" class="img_produit"></td>
-                        <td><h4>Wasabi</h4></td>
-                        <td class="prix">12</td>
-                        <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
-                        <td class="prix">12</td>
-                        <td><button class="supprimer"></button></td>
-                    </tr>
+        <section id="panier">
+            <h2>Votre panier</h2>
+            <div class="panier-container">
+                <table class="produits">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Produit</th>
+                            <th>prix unitaire</th>
+                            <th>Quantité</th>
+                            <th>Prix total</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="food-panier">
+                            <td><img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit"></td>
+                            <td><h4>Mochis</h4></td>
+                            <td class="prix">3,50</td>
+                            <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
+                            <td class="prix">3,50</td>
+                            <td><button class="supprimer"></button></td>
+                        </tr>
+                        
+                        <tr class="food-panier">
+                            <td><img src="images/boutique/wasabi.jpg" alt="image du produit" class="img_produit"></td>
+                            <td><h4>Wasabi</h4></td>
+                            <td class="prix">12</td>
+                            <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
+                            <td class="prix">12</td>
+                            <td><button class="supprimer"></button></td>
+                        </tr>
 
-                    <tr class="food-panier">
-                        <td><img src="images/boutique/sauce_soja.jpg" alt="image du produit" class="img_produit"></td>
-                        <td><h4>Sauce soja</h4></td>
-                        <td class="prix">10,50</td>
-                        <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
-                        <td class="prix">10,50</td>
-                        <td><button class="supprimer"></button></td>
-                    </tr>
+                        <tr class="food-panier">
+                            <td><img src="images/boutique/sauce_soja.jpg" alt="image du produit" class="img_produit"></td>
+                            <td><h4>Sauce soja</h4></td>
+                            <td class="prix">10,50</td>
+                            <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
+                            <td class="prix">10,50</td>
+                            <td><button class="supprimer"></button></td>
+                        </tr>
 
-                    <tr class="food-panier">
-                        <td><img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit"></td>
-                        <td><h4>Riz gluan</h4></td>
-                        <td class="prix">20</td>
-                        <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
-                        <td class="prix">20</td>
-                        <td><button class="supprimer"></button></td>
-                    </tr>
+                        <tr class="food-panier">
+                            <td><img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit"></td>
+                            <td><h4>Riz gluan</h4></td>
+                            <td class="prix">20</td>
+                            <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
+                            <td class="prix">20</td>
+                            <td><button class="supprimer"></button></td>
+                        </tr>
 
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
 
-            <div class="summary">
-                <div id="sous-total" class="container-prix">
-                    <p>Sous-total</p>
-                    <p class="prix">46,00</p>
+                <div class="summary">
+                    <div id="sous-total" class="container-prix">
+                        <p>Sous-total</p>
+                        <p class="prix">46,00</p>
+                    </div>
+                    <div id="TVA" class="container-prix">
+                        <p>TVA include de</p>
+                        <p class="prix">4,60</p>
+                    </div>
+                    <div id="frais_livraison" class="container-prix">
+                        <p>Frais de livraison</p>
+                        <p class="prix">2,50</p>
+                    </div>
+                    <div class="separateur"></div>
+                    <div id="total" class="container-prix">
+                        <p>Total</p>
+                        <p class="prix">48,50</p>
+                    </div>
+                    <div class="separateur"></div>
+                    <button id="payer" class="valider">Procéder au paiement</button>
                 </div>
-                <div id="TVA" class="container-prix">
-                    <p>TVA include de</p>
-                    <p class="prix">4,60</p>
-                </div>
-                <div id="frais_livraison" class="container-prix">
-                    <p>Frais de livraison</p>
-                    <p class="prix">2,50</p>
-                </div>
-                <div class="separateur"></div>
-                <div id="total" class="container-prix">
-                    <p>Total</p>
-                    <p class="prix">48,50</p>
-                </div>
-                <div class="separateur"></div>
-                <button id="payer" class="valider">Procéder au paiement</button>
             </div>
         </section>
 
         <section id="recommandation">
-            <h2>Recommandations</h2>
+            <h3>Recommandations</h3>
             <div class="recommandations">
                 <button class="scroll-button scroll-left" id="scrollLeft">&lt;</button>
                 <button class="scroll-button scroll-right" id="scrollRight">&gt;</button>
