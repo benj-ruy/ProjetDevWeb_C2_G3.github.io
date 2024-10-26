@@ -113,61 +113,67 @@
             </div>
         </section>
 
-        <h2>Recommandations</h2>
-        <section class="recommandation">
-            <div class="food-card">
-                <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                <div class="infos_produit">
-                    <h2>Nom du produit</h2>
-                    <p>Description du produit</p>
-                    <p>Prix du produit</p>
+        <section id="recommandation">
+            <h2>Recommandations</h2>
+            <div class="recommandations">
+                <button class="scroll-button scroll-left" id="scrollLeft">&lt;</button>
+                <button class="scroll-button scroll-right" id="scrollRight">&gt;</button>
+                <div class="recommandation-container">
+                    <div class="food-card">
+                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
+                        <div class="infos_produit">
+                            <h2>Nom du produit</h2>
+                            <p>Description du produit</p>
+                            <p>Prix du produit</p>
+                        </div>
+                    </div>
+
+                    <div class="food-card">
+                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
+                        <div class="infos_produit">
+                            <h2>Nom du produit</h2>
+                            <p>Description du produit</p>
+                            <p>Prix du produit</p>
+                        </div>
+                    </div>
+
+                    <div class="food-card">
+                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
+                        <div class="infos_produit">
+                            <h2>Nom du produit</h2>
+                            <p>Description du produit</p>
+                            <p>Prix du produit</p>
+                        </div>
+                    </div>
+                    
+                    <div class="food-card">
+                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
+                        <div class="infos_produit">
+                            <h2>Nom du produit</h2>
+                            <p>Description du produit</p>
+                            <p>Prix du produit</p>
+                        </div>
+                    </div>
+                    
+                    <div class="food-card">
+                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
+                        <div class="infos_produit">
+                            <h2>Nom du produit</h2>
+                            <p>Description du produit</p>
+                            <p>Prix du produit</p>
+                        </div>
+                    </div>
+                    
+                    <div class="food-card">
+                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
+                        <div class="infos_produit">
+                            <h2>Nom du produit</h2>
+                            <p>Description du produit</p>
+                            <p>Prix du produit</p>
+                        </div>
+                    </div>  
                 </div>
             </div>
-
-            <div class="food-card">
-                <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                <div class="infos_produit">
-                    <h2>Nom du produit</h2>
-                    <p>Description du produit</p>
-                    <p>Prix du produit</p>
-                </div>
-            </div>
-
-            <div class="food-card">
-                <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                <div class="infos_produit">
-                    <h2>Nom du produit</h2>
-                    <p>Description du produit</p>
-                    <p>Prix du produit</p>
-                </div>
-            </div>
-
-            <div class="food-card">
-                <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                <div class="infos_produit">
-                    <h2>Nom du produit</h2>
-                    <p>Description du produit</p>
-                    <p>Prix du produit</p>
-                </div>
-            </div>
-
-            <div class="food-card">
-                <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                <div class="infos_produit">
-                    <h2>Nom du produit</h2>
-                    <p>Description du produit</p>
-                    <p>Prix du produit</p>
-                </div>
-            </div>
-
-            <div class="food-card">
-                <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                <div class="infos_produit">
-                    <h2>Nom du produit</h2>
-                    <p>Description du produit</p>
-                    <p>Prix du produit</p>
-                </div>
-            </div>  
         </section>
                 
     </main>
@@ -183,5 +189,28 @@
             </li>
         </ul>
     </footer>
+
+    <script>
+        // Sélection des éléments
+        const scrollContainer = document.querySelector('.recommandation-container');
+        const scrollLeftButton = document.getElementById('scrollLeft');
+        const scrollRightButton = document.getElementById('scrollRight');
+    
+        // Fonction de défilement vers la gauche
+        scrollLeftButton.addEventListener('click', () => {
+            scrollContainer.scrollBy({
+                left: -200, // Ajustez la valeur pour la distance de défilement
+                behavior: 'smooth'
+            });
+        });
+    
+        // Fonction de défilement vers la droite
+        scrollRightButton.addEventListener('click', () => {
+            scrollContainer.scrollBy({
+                left: 200, // Ajustez la valeur pour la distance de défilement
+                behavior: 'smooth'
+            });
+        });
+    </script>
 </body>
 </html>

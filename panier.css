@@ -1,7 +1,6 @@
 main {
     width: 90%;
     margin: 0 auto;
-    padding: 20px;
 }
 
 
@@ -137,18 +136,59 @@ td, th {
     color: #008800;
 }
 
+.recommandations {
+    position: relative; 
+}
 
-.recommandation {
+.recommandation-container {
     margin: 10px;
     display: flex;
     flex-direction: row;
     gap: 50px;
     width: 100%;
-    
+
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
+
+.recommandation-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.recommandation-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.scroll-left {
+    left: 0;
+}
+
+.scroll-right {
+    right: 0;
+}
+
+.scroll-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
 
 .food-card {
     padding: 20px;
@@ -235,5 +275,9 @@ td, th {
         margin-top: 3px;
         padding: 3px;
         font-size: 14px;
+    }
+    
+    .scroll-button {
+        display: none;
     }
 }
