@@ -132,10 +132,10 @@ footer {
         transition: color 0.25s;
     }
     .links:hover{
-        color:rgb(197, 33, 33); 
+        color:rgb(199, 1, 57); 
     }
     .active-page{
-        color: rgb(197, 33, 33);
+        color: rgb(199, 1, 57);
         font-size: 20px;
         text-decoration: underline;
     }
