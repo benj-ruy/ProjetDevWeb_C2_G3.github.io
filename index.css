@@ -1,0 +1,23 @@
+h1 {
+    font-size: 50px;
+}
+
+.baniere{
+    height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(images/boutique/baniere.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.texte-baniere{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
