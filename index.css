@@ -47,7 +47,7 @@ h1 {
 .text-elem{
     position: relative;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     text-justify: auto;
 }
 
