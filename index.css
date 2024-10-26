@@ -103,14 +103,17 @@ button:hover{
         left: 5%;
     }
 
+    .baniere{
+        justify-content: center;
+    }
+
     .texte-baniere{
-        width: 100%;
         padding: 30px;
-        border-radius: 0;
+        border-radius: 10px;
         text-align: center;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 }
