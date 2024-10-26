@@ -44,46 +44,37 @@
                 <tbody>
                     <tr class="food-panier">
                         <td><img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit"></td>
-                        <td><h4>Nom du produit</h4></td>
-                        <td class="prix">3</td>
+                        <td><h4>Mochis</h4></td>
+                        <td class="prix">3,50</td>
                         <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
-                        <td class="prix">3</td>
+                        <td class="prix">3,50</td>
                         <td><button class="supprimer"></button></td>
                     </tr>
                     
                     <tr class="food-panier">
-                        <td><img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit"></td>
-                        <td><h4>Nom du produit 2</h4></td>
-                        <td class="prix">3</td>
+                        <td><img src="images/boutique/wasabi.jpg" alt="image du produit" class="img_produit"></td>
+                        <td><h4>Wasabi</h4></td>
+                        <td class="prix">12</td>
                         <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
-                        <td class="prix">3</td>
+                        <td class="prix">12</td>
+                        <td><button class="supprimer"></button></td>
+                    </tr>
+
+                    <tr class="food-panier">
+                        <td><img src="images/boutique/sauce_soja.jpg" alt="image du produit" class="img_produit"></td>
+                        <td><h4>Sauce soja</h4></td>
+                        <td class="prix">10,50</td>
+                        <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
+                        <td class="prix">10,50</td>
                         <td><button class="supprimer"></button></td>
                     </tr>
 
                     <tr class="food-panier">
                         <td><img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit"></td>
-                        <td><h4>Nom du produit 2</h4></td>
-                        <td class="prix">3</td>
+                        <td><h4>Riz gluan</h4></td>
+                        <td class="prix">20</td>
                         <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
-                        <td class="prix">3</td>
-                        <td><button class="supprimer"></button></td>
-                    </tr>
-
-                    <tr class="food-panier">
-                        <td><img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit"></td>
-                        <td><h4>Nom du produit 2</h4></td>
-                        <td class="prix">3</td>
-                        <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
-                        <td class="prix">3</td>
-                        <td><button class="supprimer"></button></td>
-                    </tr>
-
-                    <tr class="food-panier">
-                        <td><img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit"></td>
-                        <td><h4>Nom du produit 2</h4></td>
-                        <td class="prix">3</td>
-                        <td> <input type="number" min="1" max="10" value="1" step="1" class="quantité" name="quantité"> </td>
-                        <td class="prix">3</td>
+                        <td class="prix">20</td>
                         <td><button class="supprimer"></button></td>
                     </tr>
 
@@ -93,20 +84,20 @@
             <div class="summary">
                 <div id="sous-total" class="container-prix">
                     <p>Sous-total</p>
-                    <p class="prix">6</p>
+                    <p class="prix">46,00</p>
                 </div>
                 <div id="TVA" class="container-prix">
                     <p>TVA include de</p>
-                    <p class="prix">1</p>
+                    <p class="prix">4,60</p>
                 </div>
                 <div id="frais_livraison" class="container-prix">
                     <p>Frais de livraison</p>
-                    <p class="prix">3</p>
+                    <p class="prix">2,50</p>
                 </div>
                 <div class="separateur"></div>
                 <div id="total" class="container-prix">
                     <p>Total</p>
-                    <p class="prix">9</p>
+                    <p class="prix">48,50</p>
                 </div>
                 <div class="separateur"></div>
                 <button id="payer" class="valider">Procéder au paiement</button>
@@ -119,59 +110,47 @@
                 <button class="scroll-button scroll-left" id="scrollLeft">&lt;</button>
                 <button class="scroll-button scroll-right" id="scrollRight">&gt;</button>
                 <div class="recommandation-container">
-                    <div class="food-card">
-                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                        <div class="infos_produit">
-                            <h2>Nom du produit</h2>
-                            <p>Description du produit</p>
-                            <p>Prix du produit</p>
-                        </div>
+                    <div class="food-card" id="dango_mochi">
+                        <img src="images/boutique/sauce_yakitori.jpg" alt="dango_mochi" class="img_produit">
+                        <p>5 &#8364;</p>
+                        <h4>Sauce Yakitori</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
                     </div>
-
+        
                     <div class="food-card">
-                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                        <div class="infos_produit">
-                            <h2>Nom du produit</h2>
-                            <p>Description du produit</p>
-                            <p>Prix du produit</p>
-                        </div>
+                        <img src="images/boutique/sake.jpg" alt="mochis" class="img_produit">
+                        <p>35 &#8364;</p>
+                        <h4>Sake</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
                     </div>
-
+        
                     <div class="food-card">
-                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                        <div class="infos_produit">
-                            <h2>Nom du produit</h2>
-                            <p>Description du produit</p>
-                            <p>Prix du produit</p>
-                        </div>
+                        <img src="images/boutique/nouilles.jpg" alt="mochis" class="img_produit">
+                        <p>3,50 &#8364;</p>
+                        <h4>Nouilles Epaisses</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
                     </div>
-                    
+        
                     <div class="food-card">
-                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                        <div class="infos_produit">
-                            <h2>Nom du produit</h2>
-                            <p>Description du produit</p>
-                            <p>Prix du produit</p>
-                        </div>
+                        <img src="images/boutique/algues_kombu_sechee.jpg" alt="mochis" class="img_produit">
+                        <p>4,50 &#8364;</p>
+                        <h4>Algues kombu séchées</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
                     </div>
-                    
+        
                     <div class="food-card">
-                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                        <div class="infos_produit">
-                            <h2>Nom du produit</h2>
-                            <p>Description du produit</p>
-                            <p>Prix du produit</p>
-                        </div>
+                        <img src="images/boutique/vodka_de_riz.jpg" alt="mochis" class="img_produit">
+                        <p>40 &#8364;</p>
+                        <h4>Vodka de riz</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
                     </div>
-                    
+        
                     <div class="food-card">
-                        <img src="images/boutique/mochis.jpg" alt="image du produit" class="img_produit">
-                        <div class="infos_produit">
-                            <h2>Nom du produit</h2>
-                            <p>Description du produit</p>
-                            <p>Prix du produit</p>
-                        </div>
-                    </div>  
+                        <img src="images/boutique/miso_blanc.jpg" alt="mochis" class="img_produit">
+                        <p>7,50 &#8364;</p>
+                        <h4>Miso blanc</h4><br>
+                        <button class="add-to-cart">Ajouter au panier</button>
+                    </div>
                 </div>
             </div>
         </section>
