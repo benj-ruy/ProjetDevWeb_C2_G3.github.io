@@ -141,8 +141,10 @@ footer {
     }
     .infos{
         list-style: none;
-        justify-content: space-between;
+        justify-content: center ;
         padding: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
     .elem_infos{
         color: black;
