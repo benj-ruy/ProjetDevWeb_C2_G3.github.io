@@ -65,7 +65,7 @@ td, th {
     border: 0px;
     padding: 5px;
     font-size: 16px;
-    background-color: #f9f9f9;    
+    background-color: none;    
 }
 
 .quantité::-webkit-inner-spin-button,
@@ -225,6 +225,22 @@ td, th {
     object-fit: cover;
 }
 
+.add-to-cart{
+    padding: 7px;
+    font-weight: bold;
+    font-size: medium;
+    border: solid 1px black;
+    background-color: white;
+    transition: 0.25s;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px;
+}
+
+.add-to-cart:hover{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    transition: 0.25s;
+}
 
 
 
