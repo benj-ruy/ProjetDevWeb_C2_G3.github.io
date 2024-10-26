@@ -5,7 +5,9 @@
     justify-content: center;
     display: flex;
     background-image: url(images/boutique/baniere.jpg);
-    background-size: 1540px 800px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
 }
 
 .texte-baniere{

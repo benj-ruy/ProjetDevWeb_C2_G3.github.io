@@ -1,0 +1,20 @@
+.baniere{
+    height: 400px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(images/a_propos/banniere.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.texte-baniere{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+}
+
