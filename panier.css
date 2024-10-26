@@ -105,14 +105,14 @@ td, th {
 
 .summary {
     display: block;
-    background-color: #AAA;
+    background-color: #eee;
     width: 30%;
     min-width: 250px;
     max-width: 450px;
     height: fit-content;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 2px 4px black;
+    box-shadow: 0 2px 4px rgb(42, 1, 1);
 }
 
 .summary .container-prix {
@@ -127,7 +127,7 @@ td, th {
     height: 3px;
     border-radius: 5px;
     margin: 10px auto;
-    background-color: #000A;
+    background-color: rgb(197, 33, 33);
 }
 
 #total {
@@ -284,11 +284,8 @@ td, th {
     }
 
     .separateur {
-        width: 90%;
         height: 2px;
-        border-radius: 5px;
         margin: 3px auto;
-        background-color: #000A;
     }
     
     #payer {
