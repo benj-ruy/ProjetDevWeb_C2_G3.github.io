@@ -1,18 +1,37 @@
-main {
+h2, h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.baniere{
+    height: 400px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(images/panier/baniere.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    box-shadow: 0 2px 3px;
+}
+
+.texte-baniere{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+section {
     width: 90%;
     margin: 0 auto;
 }
 
 
-h1, h2 {
-    margin-top: 20px;
-}
-
-
-
-
-
-.panier {
+.panier-container {
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -86,14 +105,14 @@ td, th {
 
 .summary {
     display: block;
-    background-color: #AAA;
+    background-color: #eee;
     width: 30%;
     min-width: 250px;
     max-width: 450px;
     height: fit-content;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 2px 4px black;
+    box-shadow: 0 2px 4px rgb(42, 1, 1);
 }
 
 .summary .container-prix {
@@ -108,7 +127,7 @@ td, th {
     height: 3px;
     border-radius: 5px;
     margin: 10px auto;
-    background-color: #000A;
+    background-color: rgb(197, 33, 33);
 }
 
 #total {
@@ -169,6 +188,7 @@ td, th {
     font-size: 24px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    border-radius: 5px;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -216,7 +236,7 @@ td, th {
 
 @media (max-width: 900px) {
 
-    .panier {
+    .panier-container {
         flex-direction: column;
         gap: 20px;
     }
@@ -237,7 +257,7 @@ td, th {
 }
 
 @media screen and (max-width: 500px) {
-    main {
+    section {
         padding: 10px;
     }
 
@@ -264,20 +284,13 @@ td, th {
     }
 
     .separateur {
-        width: 90%;
         height: 2px;
-        border-radius: 5px;
         margin: 3px auto;
-        background-color: #000A;
     }
     
     #payer {
         margin-top: 3px;
         padding: 3px;
         font-size: 14px;
-    }
-    
-    .scroll-button {
-        display: none;
     }
 }
