@@ -1,3 +1,7 @@
+main {
+    padding-bottom: 55px;
+}
+
 .baniere{
     height: 400px;
     position: relative;
@@ -23,7 +27,6 @@
     align-items: center;
     justify-content: space-around;
     list-style: none;
-    padding-bottom: 55px;
 }
 
 .propos_elem-list{
@@ -59,4 +62,46 @@
         width: 90%;
         left: 5%;
     }
+}
+
+.nom_formulaire {
+    color: rgb(197, 33, 33)
+}
+
+input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #242424;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+}
+  
+input[type=envoi] {
+    background-color: rgb(197, 33, 33);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+}
+  
+input[type=envoi]:hover {
+    background-color: rgb(221, 53, 53);
+}
+  
+.formulaire {
+    box-sizing : border-box;
+    border-radius:5px;
+    border: 1px solid #242424;
+    background-color: rgb(243, 243, 243);
+    padding:20px;
+    width: 100%;
+    max-width: 440px;
+    margin: auto;
+    margin-top: 55px;
 }

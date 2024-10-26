@@ -26,6 +26,8 @@
     padding: 20px;
     gap: 40px;
     background-color: rgb(255, 255, 255);
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .food-card{

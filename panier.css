@@ -3,6 +3,10 @@ h2, h3 {
     margin-bottom: 20px;
 }
 
+main {
+    padding-bottom: 55px;
+}
+
 .baniere{
     height: 400px;
     position: relative;
