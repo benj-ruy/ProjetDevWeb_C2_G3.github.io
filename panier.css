@@ -289,6 +289,11 @@ td, th {
     .quantité {
         padding: 1px; 
     }
+    
+    .quantité::-webkit-inner-spin-button,
+    .quantité::-webkit-outer-spin-button {
+        display: none;
+    }
 
     .summary {
         min-width: 200px;
