@@ -110,8 +110,8 @@ footer {
         width: auto;
     }
     .list {
-        padding-top : 10px;
-        padding-bottom : 10px;
+        padding-top : 5px;
+        padding-bottom : 5px;
         height: 40px;
         justify-content: space-between;
         list-style: none;
@@ -121,9 +121,6 @@ footer {
         flex-basis: 20%;
         text-align: center;
         margin: 5px;
-    }
-    .elem-list:hover {
-        transform: scale(1.175);
     }
     .links {
         text-decoration: none;
