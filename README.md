@@ -20,4 +20,4 @@ Ce dépôt contient un site web réalisé en HTML et CSS dans le cadre de la cr�
 
 ## Lien du site
 
-[Kimiko_Market](https://benj-ruy.github.io/ProjetDevWeb_C2_G3.github.io/)
+[Kimiko Market](https://benj-ruy.github.io/ProjetDevWeb_C2_G3.github.io/)
