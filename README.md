@@ -4,7 +4,7 @@
 
 - Etudiant 1 : [RUYER Benjamin](mailto:benjamin.ruyer@edu.univ-fcomte.fr?subject=ProjetDevWeb_C2_G3)
 - Etudiant 2 : [TOMASZEWSKI--VILLALDEA MARTIN Maeva](mailto:maeva.tomaszewski--villaldea_martin@edu.univ-fcomte.fr?subject=ProjetDevWeb_C2_G3)
-- Etudiant 3 : [Sandt Timothé](mailto:timothe.sandt@edu.univ-fcomte.fr?subject=ProjetDevWeb_C2_G3) 
+- Etudiant 3 : [SANDT Timothé](mailto:timothe.sandt@edu.univ-fcomte.fr?subject=ProjetDevWeb_C2_G3) 
 - Etudiant 4 : [VADEBOIN Kylian](mailto:kylian.vadeboin@edu.univ-fcomte.fr?subject=ProjetDevWeb_C2_G3)
 
 ## Présentation du projet
